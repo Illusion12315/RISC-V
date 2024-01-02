@@ -1,0 +1,461 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/bz_riscv/phase3_addram2/tb
+T_opt
+!s110 1651812401
+V1?0zgaDV9FW<dAd`aJN[I3
+04 2 4 work tb fast 0
+=1-c809a85d905d-6274a831-f1-2d8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6c;65
+R0
+vctrl
+Z2 !s110 1652709358
+!i10b 1
+!s100 <bnl6]I4]m_LT;mh7=NcQ2
+IiaFCo>fUZ3`ChfF2JC>]F3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dE:/lianxi/phase4_debug_led/tb
+w1650520488
+8E:/lianxi/phase4_debug_led/rtl/ctrl.v
+FE:/lianxi/phase4_debug_led/rtl/ctrl.v
+L0 1
+Z5 OP;L;10.6c;65
+r1
+!s85 0
+31
+Z6 !s108 1652709358.000000
+!s107 E:/lianxi/phase4_debug_led/rtl/ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/ctrl.v|
+!i113 1
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdebug_button_debounce
+R2
+!i10b 1
+!s100 Wa:KlN^PLXEYiN]3M884l3
+IDeFXAONA7KS`_4jH:T>j92
+R3
+R4
+Z8 w1651827865
+Z9 8E:/lianxi/phase4_debug_led/rtl/debug_button_debounce.v
+Z10 FE:/lianxi/phase4_debug_led/rtl/debug_button_debounce.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+Z11 !s107 E:/lianxi/phase4_debug_led/rtl/debug_button_debounce.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/debug_button_debounce.v|
+!i113 1
+R7
+R1
+vdff_set
+Z13 !s110 1652709359
+!i10b 1
+!s100 eoz8[Il?1nEL3iW_^AT_03
+IXFKiV6e?aglzd>OmV[fDB1
+R3
+R4
+w1651419763
+8E:/lianxi/phase4_debug_led/utils/dff_set.v
+FE:/lianxi/phase4_debug_led/utils/dff_set.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/lianxi/phase4_debug_led/utils/dff_set.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/utils/dff_set.v|
+!i113 1
+R7
+R1
+vdual_ram
+R13
+!i10b 1
+!s100 nEQnUY1@ePdPST;CX<dcI0
+IZ4aaBfbg3RMBC;Pg8OFNk2
+R3
+R4
+Z14 w1651652214
+Z15 8E:/lianxi/phase4_debug_led/utils/dual_ram.v
+Z16 FE:/lianxi/phase4_debug_led/utils/dual_ram.v
+L0 2
+R5
+r1
+!s85 0
+31
+Z17 !s108 1652709359.000000
+!s107 E:/lianxi/phase4_debug_led/utils/dual_ram.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/utils/dual_ram.v|
+!i113 1
+R7
+R1
+vdual_ram_template
+R13
+!i10b 1
+!s100 ;f[2`m^nn_Wk3XD;Uc8901
+I6f^mF=zFgZQA:oEhVYkO=3
+R3
+R4
+R14
+R15
+R16
+L0 62
+R5
+r1
+!s85 0
+31
+R17
+Z19 !s107 E:/lianxi/phase4_debug_led/utils/dual_ram.v|
+R18
+!i113 1
+R7
+R1
+vex
+R2
+!i10b 1
+!s100 >EU9]bjONS;>8ZWol`4fa1
+IXb1I?Pjz0H4j85NaGNC281
+R3
+R4
+w1651735258
+8E:/lianxi/phase4_debug_led/rtl/ex.v
+FE:/lianxi/phase4_debug_led/rtl/ex.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:\lianxi\phase4_debug_led\rtl\defines.v|E:/lianxi/phase4_debug_led/rtl/ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/ex.v|
+!i113 1
+R7
+R1
+vid
+R2
+!i10b 1
+!s100 S7N]GnjHNaKHLVhTTzzCE1
+IH9I7@V9a[HUc?^L4@;jFZ3
+R3
+R4
+w1651732238
+8E:/lianxi/phase4_debug_led/rtl/id.v
+FE:/lianxi/phase4_debug_led/rtl/id.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:\lianxi\phase4_debug_led\rtl\defines.v|E:/lianxi/phase4_debug_led/rtl/id.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/id.v|
+!i113 1
+R7
+R1
+vid_ex
+R2
+!i10b 1
+!s100 X^=2MFe]bgjOZ`;Zc3]b<0
+IQB<^5M9;WXHD3A7UC2^Ym1
+R3
+R4
+w1651657592
+8E:/lianxi/phase4_debug_led/rtl/id_ex.v
+FE:/lianxi/phase4_debug_led/rtl/id_ex.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:\lianxi\phase4_debug_led\rtl\defines.v|E:/lianxi/phase4_debug_led/rtl/id_ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/id_ex.v|
+!i113 1
+R7
+R1
+vif_id
+R2
+!i10b 1
+!s100 L]C]a1D?7Eda86L^JlFU41
+IRKo00WT[GffK<8fC7_M:41
+R3
+R4
+w1651558374
+8E:/lianxi/phase4_debug_led/rtl/if_id.v
+FE:/lianxi/phase4_debug_led/rtl/if_id.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:\lianxi\phase4_debug_led\rtl\defines.v|E:/lianxi/phase4_debug_led/rtl/if_id.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/if_id.v|
+!i113 1
+R7
+R1
+vifetch
+!s110 1651735265
+!i10b 1
+!s100 D01DJ14ofVIaOSC57HJki1
+IVY>jJ2HDenMkg6z0``INN1
+R3
+R0
+w1650183708
+8F:/bz_riscv/phase3_addram2/rtl/ifetch.v
+FF:/bz_riscv/phase3_addram2/rtl/ifetch.v
+L0 1
+OL;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1651735265.000000
+!s107 F:/bz_riscv/phase3_addram2/rtl/ifetch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/bz_riscv/phase3_addram2/rtl/ifetch.v|
+!i113 0
+R7
+R1
+vkey_debounce
+R2
+!i10b 1
+!s100 AngXKn5ezjEdUacD2D45N3
+I<`YhOPkmRJgZCHcdnPMYz2
+R3
+R4
+R8
+R9
+R10
+L0 33
+R5
+r1
+!s85 0
+31
+R6
+R11
+R12
+!i113 1
+R7
+R1
+vopen_risc_v
+R2
+!i10b 1
+!s100 C7ShH>MzU@?g1XzB79fH83
+INbCbchTU0oaD3eYK]QN:i0
+R3
+R4
+w1651731920
+8E:/lianxi/phase4_debug_led/rtl/open_risc_v.v
+FE:/lianxi/phase4_debug_led/rtl/open_risc_v.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/lianxi/phase4_debug_led/rtl/open_risc_v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/open_risc_v.v|
+!i113 1
+R7
+R1
+vopen_risc_v_soc
+R2
+!i10b 1
+!s100 ^XH`IVmC:abl<899A5cF>0
+IOjhhIFC2E>hPZa]z1ANil0
+R3
+R4
+w1651827990
+8E:/lianxi/phase4_debug_led/tb/open_risc_v_soc.v
+FE:/lianxi/phase4_debug_led/tb/open_risc_v_soc.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/lianxi/phase4_debug_led/tb/open_risc_v_soc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/tb/open_risc_v_soc.v|
+!i113 1
+R7
+R1
+vpc_reg
+R2
+!i10b 1
+!s100 [jDYn2BliGWlaAZ8aYcYh3
+IheM8gQW?7^o<4_o2KC=nX2
+R3
+R4
+w1650512854
+8E:/lianxi/phase4_debug_led/rtl/pc_reg.v
+FE:/lianxi/phase4_debug_led/rtl/pc_reg.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/lianxi/phase4_debug_led/rtl/pc_reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/pc_reg.v|
+!i113 1
+R7
+R1
+vram
+R2
+!i10b 1
+!s100 jJzfzVIn9O]RMT@:c5do?1
+IDKfd0YUC6fP4@9:=ok9O_2
+R3
+R4
+w1651634940
+8E:/lianxi/phase4_debug_led/rtl/ram.v
+FE:/lianxi/phase4_debug_led/rtl/ram.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/lianxi/phase4_debug_led/rtl/ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/ram.v|
+!i113 1
+R7
+R1
+vregs
+R2
+!i10b 1
+!s100 LoCm59KA55KeO@]ljbgCd1
+In97iWGcnEKSO63m7VfCDU2
+R3
+R4
+w1650696098
+8E:/lianxi/phase4_debug_led/rtl/regs.v
+FE:/lianxi/phase4_debug_led/rtl/regs.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/lianxi/phase4_debug_led/rtl/regs.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/regs.v|
+!i113 1
+R7
+R1
+vrom
+R2
+!i10b 1
+!s100 8j_U6kLW_SUjj<mXL042n0
+ILFS:U`UjNDGP8:d2@^h0n2
+R3
+R4
+w1651647010
+8E:/lianxi/phase4_debug_led/rtl/rom.v
+FE:/lianxi/phase4_debug_led/rtl/rom.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/lianxi/phase4_debug_led/rtl/rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/rom.v|
+!i113 1
+R7
+R1
+vtb
+R2
+!i10b 1
+!s100 _]]]n6^kZzU5B5U3:ogkz3
+I[FTBeWbU`[XTzcRFXFP3>0
+R3
+R4
+w1651818546
+8E:\lianxi\phase4_debug_led\tb\tb.v
+FE:\lianxi\phase4_debug_led\tb\tb.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:\lianxi\phase4_debug_led\tb\tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\lianxi\phase4_debug_led\tb\tb.v|
+!i113 1
+R7
+R1
+vuart_debug
+R2
+!i10b 1
+!s100 mk`JICbN2a3;VigoVMgdV3
+I]8NGO<F;eMDK=M5mB^V@c2
+R3
+R4
+Z20 w1651632668
+Z21 8E:/lianxi/phase4_debug_led/rtl/uart_debug.v
+Z22 FE:/lianxi/phase4_debug_led/rtl/uart_debug.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+Z23 !s107 E:/lianxi/phase4_debug_led/rtl/uart_debug.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|E:/lianxi/phase4_debug_led/rtl/uart_debug.v|
+!i113 1
+R7
+R1
+vuart_recv
+R2
+!i10b 1
+!s100 IKT3aDeG7Tkj2l<O1Vk6a1
+I7<]F^=QnTFeIch]HcZJ1T0
+R3
+R4
+R20
+R21
+R22
+L0 79
+R5
+r1
+!s85 0
+31
+R6
+R23
+R24
+!i113 1
+R7
+R1
+vwrite2rom
+R2
+!i10b 1
+!s100 1K=g58hH[4CjjSziKzm1d3
+I?zbkOfALBj^[<]00O8]fb1
+R3
+R4
+R20
+R21
+R22
+L0 37
+R5
+r1
+!s85 0
+31
+R6
+R23
+R24
+!i113 1
+R7
+R1
