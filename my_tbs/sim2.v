@@ -17,92 +17,92 @@ initial begin
     sys_clk_i = 0;
     //--------------------------------//
     instruction = "add";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-add.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-add.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "addi";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-addi.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-addi.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "and";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-and.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-and.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "andi";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-andi.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-andi.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "auipc";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-auipc.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-auipc.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "beq";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-beq.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-beq.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "bge";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-bge.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-bge.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "bgeu";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-bgeu.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-bgeu.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "blt";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-blt.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-blt.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "bltu";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-bltu.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-bltu.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "bne";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-bne.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-bne.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     // instruction = "fence_i";
-    // $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-fence_i.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    // $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-fence_i.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     // instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "jal";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-jal.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-jal.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "jalr";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-jalr.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-jalr.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "lb";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-lb.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-lb.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "lbu";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-lbu.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-lbu.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "lh";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-lh.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-lh.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
 
     //--------------------------------//
     instruction = "lhu";
-    $readmemh("E:/risc_v_project/tb/inst_txt/rv32ui-p-lhu.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
+    $readmemh("E:/risc_v_project/my_code/my_tbs/inst_txt/rv32ui-p-lhu.txt",RV32I_core_by_cxz_inst.instruction_fetch_inst.instruction_memory_inst.rom_memo);
     instrustion_test(instruction);
     
 end
